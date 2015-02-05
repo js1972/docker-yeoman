@@ -1,0 +1,7 @@
+web:
+  build: .
+  command: bash
+  ports:
+   - "8080:8080"
+  volumes:
+   - .:/home/yeoman
